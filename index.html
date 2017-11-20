@@ -10,22 +10,25 @@
   <script src="tippy/tippy.min.js"></script>
 
   <style>
+    html {
+      font-size: 1.4em;
+    }
+
     body {
       margin-left: auto;
       margin-right: auto;
       padding: 0 40px 0 40px;
       max-width: 800px;
-      font-size: 24px;
-      line-height: 1.3em;
+      line-height: 1.4em;
       font-family: 'PT Sans', sans-serif;
     }
 
     span {
       /*
-       Set text-decoration to 'none' if you don't want any underlining.
-       Set it to 'underline' for a solid line, or 'underline dotted' for dotted.
+       Remove border-bottom property if you don't want any underlining.
+       Set its size in pixels and type (e.g. dotted, solid, dashed).
       */
-      text-decoration: underline dotted;
+      border-bottom: 3px dotted;
     }
   </style>
 </head>
